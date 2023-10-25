@@ -31,7 +31,7 @@ void selection_sort(int *array, size_t size)
 	{
 		int current_po = i;
 
-		for (j = i + 1; j < size; j++
+		for (j = i + 1; j < size; j++)
 			if (array[j] < array[current_po])
 				current_po = j;
 		if (current_po != i)
